@@ -1,12 +1,4 @@
-/*!
- * MyProject Initialization Script
- *
- * Copyright (c) 2025 humi - Human Intelligence BV (https://humi.be)
- *
- * Licensed under the Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License.
- * You may not use this file for commercial purposes or modify it.
- * To view a copy of this license, visit http://creativecommons.org/licenses/by-nc-nd/4.0/
- */
+#!/usr/bin/env node
 
 import { AzureCliCredential } from "@azure/identity";
 
