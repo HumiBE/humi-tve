@@ -1,0 +1,39 @@
+{
+    "compilerOptions": {
+        "target": "ESNext",
+        "module": "ESNext",
+        "moduleResolution": "node",
+        "esModuleInterop": true,
+        "lib": [
+            "es2020",
+            "dom"
+        ],
+        "allowSyntheticDefaultImports": true,
+        "sourceMap": true,
+        "outDir": "./dist",
+        "rootDir": "./src",
+        "strict": true,
+        "noImplicitAny": true,
+        "noUnusedLocals": true,
+        "noImplicitReturns": true,
+        "experimentalDecorators": false,
+        "resolveJsonModule": true,
+        "skipLibCheck": true,
+    },
+    "include": [
+        "./src/**/*",
+        "./test/**/*",
+        "./scripts/**/*",
+        "./docs/**/*"
+    ],
+    "exclude": [
+        "./**/test-projects",
+        "./**/package-generate/assets",
+        "node_modules",
+        "docs"
+    ],
+    "types": [
+        "node"
+    ]
+
+}

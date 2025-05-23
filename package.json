@@ -1,0 +1,39 @@
+{
+    "repository": "https://github.com/humibe/humi-tve.git",
+    "author": "Timothy De Mey - timothy.de.mey@humi.be",
+    "license": "CC BY-NC-ND 4.0",
+    "private": false,
+    "name": "@humibe/humi-tve",
+    "version": "0.1.0",
+    "description": "Humi - Tenant View Exporter",
+    "main": "dist/index.js",
+    "type": "module",
+    "scripts": {
+        "build": "tsc -p .",
+        "watch": "tsc -w -p .",
+        "clean": "rimraf ./dist"
+    },
+    "dependencies": {
+        "@azure/arm-costmanagement": "^1.0.0-beta.1",
+        "@azure/arm-resourcegraph": "^4.2.1",
+        "@azure/arm-resources": "^6.0.0",
+        "@azure/identity": "^4.10.0",
+        "@azure/msal-common": "^15.5.2",
+        "@azure/msal-node": "^3.5.2",
+        "@azure/storage-blob": "^12.27.0",
+        "axios": "^1.9.0",
+        "chalk": "^5.4.1",
+        "cli-spinners": "^3.2.0",
+        "commander": "^14.0.0",
+        "easy-table": "^1.2.0",
+        "log-update": "^6.1.0",
+        "semver": "^7.7.1",
+        "strip-json-comments": "^5.0.1",
+        "typescript": "^5.8.3",
+        "uuid": "^11.1.0",
+        "zod": "^3.25.23"
+    },
+    "devDependencies": {
+        "@types/node": "^22.15.21"
+    }
+}
