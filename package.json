@@ -4,9 +4,9 @@
         "url": "git+https://github.com/humibe/humi-tve.git"
     },
     "author": "Timothy De Mey - timothy.de.mey@humi.be",
-    "license": "CC BY-NC-ND 4.0",
+    "license": "CC-BY-SA-4.0",
     "private": false,
-    "name": "@humibe/humi-tve",
+    "name": "humitve",
     "version": "0.1.0",
     "description": "Humi - Tenant View Exporter",
     "main": "dist/index.js",
@@ -34,15 +34,10 @@
         "chalk": "^5.4.1",
         "cli-spinners": "^3.2.0",
         "commander": "^14.0.0",
-        "easy-table": "^1.2.0",
         "log-update": "^6.1.0",
-        "semver": "^7.7.1",
-        "strip-json-comments": "^5.0.1",
-        "typescript": "^5.8.3",
-        "uuid": "^11.1.0",
-        "zod": "^3.25.23"
+        "typescript": "^5.8.3"
     },
     "devDependencies": {
-        "@types/node": "^22.15.21"
+        "@types/node": "^20.13.1"
     }
 }
