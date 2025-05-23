@@ -1,5 +1,8 @@
 {
-    "repository": "https://github.com/humibe/humi-tve.git",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/humibe/humi-tve.git"
+    },
     "author": "Timothy De Mey - timothy.de.mey@humi.be",
     "license": "CC BY-NC-ND 4.0",
     "private": false,

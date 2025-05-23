@@ -1,4 +1,3 @@
-import readline from "readline";
 import chalk from "chalk";
 import { ContainerClient } from "@azure/storage-blob";
 
