@@ -7,7 +7,7 @@
     "license": "CC-BY-SA-4.0",
     "private": false,
     "name": "humitve",
-    "version": "0.1.1",
+    "version": "0.1.2",
     "description": "Humi - Tenant View Exporter",
     "main": "dist/index.js",
     "type": "module",
