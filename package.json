@@ -11,6 +11,12 @@
     "description": "Humi - Tenant View Exporter",
     "main": "dist/index.js",
     "type": "module",
+    "bin": {
+        "humi-tve": "./dist/index.js"
+    },
+    "engines": {
+        "node": ">=18.0.0"
+    },
     "scripts": {
         "build": "tsc -p .",
         "watch": "tsc -w -p .",
